@@ -10,7 +10,7 @@ access_token = access_token
 access_token_secret = access_token_secret
 
 # Quotes to Tweet
-quotes=["This is tweet#1","This is tweet#2","This is tweet#3"]
+quotes=["This is tweet#111","This is tweet#222","This is tweet#333"]
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -28,7 +28,7 @@ while(True):
     tweet_func(counter)
     # print(quotes[counter])
     # wait for 10 sec
-    time.sleep(3)
+    time.sleep(10)
     counter+=1
     if counter>2:
         break
