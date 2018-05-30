@@ -10,7 +10,7 @@ access_token = access_token
 access_token_secret = access_token_secret
 
 # Quotes to Tweet
-quotes=["This is tweet#1111","This is tweet#2222","This is tweet#3333"]
+quotes=["This is tweet#01","This is tweet#02","This is tweet#03"]
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
